@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="demo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:demo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="UrlBox" Height="47" VerticalAlignment="Top" Margin="0,0,82,0" Text="http://www.qq.com"/>
+        <Button x:Name="button" Content="检测" HorizontalAlignment="Right" Margin="0,10,27,0" VerticalAlignment="Top" Click="button_Click"/>
+        <TextBox x:Name="CharSetBox" HorizontalAlignment="Left" Margin="10,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="323" IsReadOnly="True"/>
+        <ScrollViewer Margin="0,89,0,0">
+            <TextBlock x:Name="PageBox" IsTextSelectionEnabled="True"></TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Page>
