@@ -1,0 +1,5 @@
+# NUniversalCharDet
+NUniversalCharDet for UWP
+
+
+
