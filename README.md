@@ -2,6 +2,8 @@
 # NUniversalCharDet
 NUniversalCharDet for UWP
 
+[Install NuGet Package](https://www.nuget.org/packages/NUniversalCharDetUWP/)
+
 修改自[https://code.google.com/p/nuniversalchardet/](https://code.google.com/p/nuniversalchardet/)
 
 
