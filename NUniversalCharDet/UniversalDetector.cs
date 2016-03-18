@@ -45,10 +45,10 @@ namespace Mozilla.NUniversalCharDet
         ////////////////////////////////////////////////////////////////
         // methods
         ////////////////////////////////////////////////////////////////
-        /**
-         * @param listener a listener object that is notified of
-         *         the detected encocoding. Can be null.
-         */
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="listener">listener a listener object that is notified of the detected encocoding.Can be null.</param>
         public UniversalDetector(ICharsetListener listener)
         {
             this.listener = listener;

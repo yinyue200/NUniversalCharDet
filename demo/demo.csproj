@@ -126,12 +126,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NUniversalCharDet\NUniversalCharDet.csproj">
-      <Project>{a3f553a1-51db-4697-9c9a-4436a1ff02d3}</Project>
-      <Name>NUniversalCharDet</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
