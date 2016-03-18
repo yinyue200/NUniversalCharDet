@@ -2,6 +2,8 @@
 # NUniversalCharDet
 NUniversalCharDet for UWP
 
+[Install NuGet Package](https://www.nuget.org/packages/NUniversalCharDet)
+
 修改自[https://code.google.com/p/nuniversalchardet/](https://code.google.com/p/nuniversalchardet/)
 
 
@@ -13,7 +15,7 @@ UniversalCharDet的原始C++代码地址： [https://code.google.com/p/nuniversa
 原理参考资料 [http://www.mozilla.org/projects/intl/UniversalCharsetDetection.html](http://www.mozilla.org/projects/intl/UniversalCharsetDetection.html)
 
 Code license
-[http://www.mozilla.org/MPL/](http://www.mozilla.org/MPL/)
+[Mozilla Public License 1.1](http://www.mozilla.org/MPL/)
 
 
 
